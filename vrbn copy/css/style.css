@@ -1,0 +1,999 @@
+/* GOOGLE FONTS========== */
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Open+Sans:300,400,400i,600,600i,700,800|Raleway:100,100i,200i,300,300i,400,500i,600,600i,700,700i,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+/* GOOGLE FONTS========== */
+
+
+
+
+body {
+    background: #1C1C1C ;
+    font-family: 'century_gothicregular' !important;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+/* ==============NAVBA CSS START=========== */
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999999999;
+    background: #000000dc;
+}
+.navbar ul.navbar-nav li.nav-item a{
+    padding: 40px 0;
+    padding-left: 70px;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link
+{
+   text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover
+{
+    transform: scale(1.2);
+}
+
+.navbar-brand img
+{
+    width: 300px;
+    padding-left: 80px;
+}
+
+/* ==============BANNER PART CSS START============ */
+.banner
+{
+    position: relative;
+}
+.banner-img
+{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 350px;
+}
+
+.banner-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 19, 19, 0.9);
+}
+
+.banner-txt
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.banner-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing:3px;
+    padding-top: 58px;
+}
+
+.banner-btn
+{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-btn button
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 15px;
+    background: transparent;
+    color: #ffffff;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: 1px solid #3f3d3db4;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.banner-btn button:hover
+{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* ===============URBAN PART CSS START================= */
+
+
+.urban
+{
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+}
+.urban::before
+{
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: 2%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(2, 166, 241, 0.692);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+.urban-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.urban-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    padding:50px 210px;
+}
+
+.u-img
+{
+    position: relative;
+}
+
+.urban-image
+{
+    padding: 0 60px;
+}
+.u-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.urban-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.urban-overlay-txt
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.urban-overlay-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 66px;
+    color: #1e78ee;
+}
+
+.urban-overlay-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #e8f2ff;
+    padding: 0 71px;
+    padding-top: 25px;
+}
+
+.urban-button
+{
+    position: absolute;
+    text-align: center;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.urban-button button
+{
+    border: 1px solid rgba(136, 57, 57, 0.726);
+    border-radius: 10px;
+    background: transparent;
+    padding: 15px 30px;
+    color: white;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.urban-button button:hover
+{
+    background: white;
+    color: black;
+}
+
+
+.urban-after 
+{
+    position: relative;
+    padding: 130px 0;
+}
+
+.after::after
+{
+    position:absolute;
+    content: '';
+    width: 1455px;
+    height: 1px;
+    background: rgb(122, 118, 118);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ==================showcase part css start============== */
+
+.show
+{
+    padding: 0 30px;
+    padding-bottom: 130px;
+}
+
+.showcase-header
+{
+    text-align: center;
+}
+.showcase-header h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 55px;
+}
+
+.showcase-header p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 390px;
+    padding-bottom: 55px;
+}
+.show-img
+{
+    position: relative;
+}
+.show-img img
+{
+    width: 100%;
+}
+.show-button
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.show-button button
+{
+    text-align: center;
+    background: transparent;
+    border: 1px solid rgba(122, 120, 120, 0.705);
+    border-radius: 10px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 25px;
+    transition: all linear 0.2s;
+}
+.show-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+}
+
+.show-txt
+{
+    text-align: center;
+}
+
+.show-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 0 20px;
+    padding-top: 40px;
+}
+
+.show-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 15px;
+    padding: 0 135px;
+}
+
+.showcase-button
+{
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.showcase-button button
+{
+    text-align: center;
+    border: 1px solid rgba(71, 69, 69, 0.781);
+    border-radius: 10px;
+    background: transparent;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 20px 30px;
+    transition: all linear 0.2s;
+}
+
+.showcase-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+}
+
+.showcase-button::after
+{
+    position:absolute;
+    content: '';
+    width: 1455px;
+    height: 1px;
+    background: rgb(122, 118, 118);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showcase-button::before
+{
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: 60%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(245, 160, 3, 0.603);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+/* =============REFERENCE PART START================= */
+.reference
+{
+    position: relative;
+    padding: 0 30px;
+    padding-bottom: 55px;
+}
+.reference::after
+{
+    position: absolute;
+    content: '';
+    top: -15%;
+    left: 65%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(3, 156, 245, 0.603);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.reference-txt
+{
+    text-align: center;
+}
+.reference-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.reference-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 470px;
+    padding-bottom: 50px;
+}
+.image
+{
+    position: relative;
+    width: 500px;
+    height: 340px;
+    background: rgba(36, 36, 36, 0.568);
+    border-radius: 10px;
+    transition: all linear 0.6s;
+}
+.image:hover
+{
+    transform: scale(1.1);
+    z-index: 999999;
+}
+
+.reference-img  img
+{
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.r-button
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.r-button button
+{
+    border: 1px solid rgba(58, 56, 56, 0.527);
+    border-radius: 10px;
+    background: transparent;
+    padding: 15px 25px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+.r-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+.reference-button
+{
+    position: relative;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 120px;
+}
+.reference-button button
+{
+    border: 1px solid rgba(58, 56, 56, 0.527);
+    border-radius: 10px;
+    background: transparent;
+    padding: 15px 25px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    transition: all linear 0.3s
+}
+.reference-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.reference-button::after
+{
+    position:absolute;
+    content: '';
+    width: 1455px;
+    height: 1px;
+    background: rgb(122, 118, 118);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+/* ===============GAME DEMO CSS START==================== */
+.game
+{
+    padding-bottom: 50px;
+}
+.game-header
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.game-header h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.game-header p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+
+.game-img
+{
+    position: relative;
+}
+.game-img img
+{
+    width: 100%;
+}
+
+.game-img::after
+{
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: -20%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(68, 209, 26, 0.74);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.game-img::before
+{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 80%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(24, 71, 224, 0.74);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.game-btn
+{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.game-btn button
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid rgba(107, 102, 102, 0.733);
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all linear 0.3s;
+}
+
+.game-btn button:hover
+{
+    background: #ffffff;
+    color: #000000;
+}
+.game-btn::after
+{
+    position:absolute;
+    content: '';
+    width: 1455px;
+    height: 1px;
+    background: rgb(122, 118, 118);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ================ABOUT US PART CSS START===================== */
+
+
+.about
+{
+    padding-bottom: 50px;
+}
+.about
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.about-header h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.about-header p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+.about-header p
+{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+
+.about-img
+{
+    position: relative;
+}
+.about-img img
+{
+    width: 1150px;
+    height: 475px;
+}
+
+.about-img::after
+{
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: -20%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(47, 245, 228, 0.74);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.about-img::before
+{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 80%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(136, 116, 26, 0.74);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.about-img-btn
+{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.about-img-btn button
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid rgba(107, 102, 102, 0.733);
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all linear 0.3s;
+}
+
+.about-img-btn button:hover
+{
+    background: #ffffff;
+    color: #000000;
+}
+.about-img-btn::after
+{
+    position:absolute;
+    content: '';
+    width: 1455px;
+    height: 1px;
+    background: rgb(122, 118, 118);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ================partner part css start==================== */
+
+.partner
+{
+    position: relative;
+    padding: 0 30px;
+    padding-bottom: 55px;
+}
+.partner::after
+{
+    position: absolute;
+    content: '';
+    top: -15%;
+    left: 65%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgba(3, 156, 245, 0.603);
+    opacity: 0.15;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.partner-txt
+{
+    text-align: center;
+}
+.partner-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.partner-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.p-image
+{
+    position: relative;
+    width: 500px;
+    height: 340px;
+    background: rgba(104, 102, 102, 0.568);
+    border-radius: 10px;
+    transition: all linear 0.6s;
+}
+.p-image:hover
+{
+    transform: scale(1.1);
+    z-index: 999999;
+}
+
+.partner-img  img
+{
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.p-button
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.p-button button
+{
+    border: 1px solid rgba(58, 56, 56, 0.527);
+    border-radius: 10px;
+    background: transparent;
+    padding: 15px 25px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+.p-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+.partner-button
+{
+    position: relative;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 120px;
+}
+.partner-button button
+{
+    border: 1px solid rgba(58, 56, 56, 0.527);
+    border-radius: 10px;
+    background: transparent;
+    padding: 15px 25px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    transition: all linear 0.3s
+}
+.partner-button button:hover
+{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* ================SOCIAL PART CSS START=================== */
+.social
+{
+    background: #1e2830;
+    padding-bottom: 55px;
+}
+.social-txt
+{
+    text-align: center;
+}
+
+ul, li, ol 
+{
+    list-style: none;
+    padding: 0;
+}
+.social-txt h2
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.social-icon
+{
+    position: relative;
+    width: 68px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-left: 30px;
+    transition: all linear 0.2s;
+}
+.social-icon a img
+{
+    position: absolute;
+    width: 100%;
+}
+
+.social-icon:hover 
+{
+   transform: scale(1.3);
+}
+
+/* =================Footer PART CSS START======== */
+
+.footer
+{
+    background: rgb(30 60 79);
+}
+.footer-txt
+{
+    padding-left: 125px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    text-align: left;
+}
+
+.footer-txt h4
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.footer-txt p
+{
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    font-weight: 100;
+    color: #cccccc;
+}
+
+.footer-txt ul li  a
+{
+    font-family: 'Rowdies', cursive;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    color: #cccccc;
+    line-height: 19px;
+}
+
+
+
+
+

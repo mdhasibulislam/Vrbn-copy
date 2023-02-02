@@ -1,0 +1,750 @@
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+        background: rgb(36, 248, 7);
+        border-radius: 10px;
+    }
+    .navbar ul.navbar-nav li.nav-item a {
+        padding: 20px 0;
+    }
+    .navbar-nav 
+    {
+        padding-top: 50px;
+    }
+    .navbar ul.navbar-nav li.nav-item a.nav-link 
+    {
+        text-align: center;
+    }
+
+
+    .banner-txt h2 
+    {
+        font-size: 22px;
+    }
+
+    .banner-txt p 
+    {
+        font-size: 13px;
+    }
+
+
+    .urban-txt h2 
+    {
+        font-size: 40px;
+    }
+
+    .urban-txt p 
+    {
+        font-size: 12px;
+    }
+    .urban-overlay-txt h2 
+    {
+        font-size: 30px;
+    }
+    .urban-overlay-txt p 
+    {
+        font-size: 9px;
+        padding: 0 22px;
+    }
+    .urban-button button 
+    {
+        padding: 3px 18px;
+        font-family: 'Rowdies', cursive;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .after::after 
+    {
+        width: 650px;
+    }
+
+
+    .showcase-header h2 
+    {
+        font-size: 40px;
+    }
+    .showcase-header p 
+    {
+        font-size: 12px;
+        padding: 0 145px;
+    }
+    .show-txt h2 
+    {
+        font-size: 18px;
+    }
+    .show-txt p 
+    {
+        font-size: 12px;
+        padding: 0 79px;
+    }
+    .showcase-button button 
+    {
+        font-size: 15px;
+        padding: 12px 15px;
+    }
+    .showcase-button::after 
+    {
+        width: 650px;
+    }
+    .show-button button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+    .reference-txt h2 
+    {
+        font-size: 40px;
+    }
+    .reference-txt p 
+    {
+        font-size: 12px;
+        padding: 0 209px;
+    }
+    .image 
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 16px;
+    }
+    .reference-img img 
+    {
+        width: 45%;
+    }
+    .r-button button 
+    {
+        padding: 5px 16px;
+        font-size: 15px;
+    }
+    .active 
+    {
+        margin-left: 25%;
+    }
+    .reference-button button 
+    {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .reference-button::after 
+    {
+        width: 650px;
+    }
+
+
+    .game-header h2 
+    {
+        font-size: 40px;
+    }
+    .game-header p 
+    {
+        font-size: 12px;
+        padding: 0 180px;
+    }
+
+    .game-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .game-btn::after 
+    {
+        width: 650px;
+    }
+
+
+    .about-header h2 
+    {
+        font-size: 40px;
+    }
+    .about-header p 
+    {
+        font-size: 12px;
+        padding: 0 120px;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .about-img-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .about-img-btn::after 
+    {
+        width: 650px;
+    }
+
+
+    .partner-txt h2 
+    {
+        font-size: 40px;
+    }
+    .partner-txt p 
+    {
+        font-size: 12px;
+    }
+    .p-image 
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 16px;
+    }
+    .p-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .partner-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+
+
+
+    .social-icon 
+    {
+        width: 55px;
+        height: 55px;
+    }
+    .social-txt h2 
+    {
+        font-size: 40px;
+    }
+
+
+    .footer-txt h4 
+    {
+        font-size: 14px;
+    }
+    .footer-txt p 
+    {
+        font-size: 12px;
+    }
+    .footer-txt ul li a 
+    {
+        font-size: 12px;
+    }
+
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+        background: rgb(36, 248, 7);
+        border-radius: 10px;
+    }
+    .navbar ul.navbar-nav li.nav-item a {
+        padding: 20px 0;
+    }
+    .navbar-nav 
+    {
+        padding-top: 50px;
+    }
+    .navbar ul.navbar-nav li.nav-item a.nav-link 
+    {
+        text-align: center;
+    }
+
+
+    .banner-txt h2 
+    {
+        font-size: 15px;
+    }
+
+    .banner-txt p 
+    {
+        font-size: 12px;
+    }
+
+
+    .urban-txt h2 
+    {
+        font-size: 30px;
+    }
+
+    .urban-txt p 
+    {
+        font-size: 12px;
+        padding: 50px 8px;
+    }
+    .urban-overlay-txt h2 
+    {
+        font-size: 25px;
+    }
+    .urban-overlay-txt p 
+    {
+        font-size: 8px;
+        padding: 0 2px;
+    }
+    .urban-button button 
+    {
+        padding: 2px 15px;
+        margin-top: 15px;
+    }
+    .after::after 
+    {
+        width: 520px;
+    }
+
+
+
+    .showcase-header h2 
+    {
+        font-size: 30px;
+    }
+    .showcase-header p 
+    {
+        font-size: 12px;
+        padding: 0 75px;
+    }
+    .show-txt h2 
+    {
+        font-size: 18px;
+    }
+    .show-txt p 
+    {
+        font-size: 12px;
+        padding: 0 79px;
+    }
+    .showcase-button button 
+    {
+        font-size: 15px;
+        padding: 12px 15px;
+    }
+    .showcase-button::after 
+    {
+        width: 520px;
+    }
+    .show-button button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+
+    .reference-txt h2 
+    {
+        font-size: 30px;
+    }
+    .reference-txt p 
+    {
+        font-size: 12px;
+        padding: 0 100px;
+    }
+    .image 
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 16px;
+        left: 18%;
+    }
+    .reference-img img 
+    {
+        width: 45%;
+    }
+    .r-button button 
+    {
+        padding: 5px 16px;
+        font-size: 15px;
+    }
+    /* .active 
+    {
+        margin-left: 25%;
+    } */
+    .reference-button button 
+    {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .reference-button::after 
+    {
+        width: 520px;
+    }
+
+
+    .game-header h2 
+    {
+        font-size: 30px;
+    }
+    .game-header p 
+    {
+        font-size: 12px;
+        padding: 0 100px;
+    }
+
+    .game-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .game-btn::after 
+    {
+        width: 520px;
+    }
+
+
+
+    .about-header h2 
+    {
+        font-size: 30px;
+    }
+    .about-header p 
+    {
+        font-size: 12px;
+        padding: 0 50px;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .about-img-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .about-img-btn::after 
+    {
+        width: 520px;
+    }
+
+
+
+    .partner-txt h2 
+    {
+        font-size: 30px;
+    }
+    .partner-txt p 
+    {
+        font-size: 12px;
+    }
+    .p-image 
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 16px;
+        left: 18%;
+    }
+    .p-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .partner-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+
+    .social-icon 
+    {
+        width: 55px;
+        height: 55px;
+    }
+    .social-txt h2 
+    {
+        font-size: 30px;
+    }
+
+
+
+    .footer-txt 
+    {
+        padding-left: 65px;
+    }
+    .footer-txt h4 
+    {
+        font-size: 14px;
+    }
+    .footer-txt p 
+    {
+        font-size: 12px;
+    }
+    .footer-txt ul li a 
+    {
+        font-size: 12px;
+    }
+
+
+
+
+ }
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{ 
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+        background: rgb(36, 248, 7);
+        border-radius: 10px;
+    }
+    .navbar ul.navbar-nav li.nav-item a 
+    {
+        padding: 20px 0;
+    }
+    .navbar-nav 
+    {
+        padding-top: 50px;
+    }
+    .navbar ul.navbar-nav li.nav-item a.nav-link 
+    {
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+
+    .banner-txt h2 
+    {
+        font-size: 13px;
+    }
+
+    .banner-txt p 
+    {
+        font-size: 10px;
+    }
+
+
+    .urban-txt h2 
+    {
+        font-size: 25px;
+    }
+
+    .urban-txt p 
+    {
+        font-size: 12px;
+        padding: 50px 8px;
+    }
+    .urban-overlay-txt h2 
+    {
+        font-size: 30px;
+    }
+    .urban-overlay-txt p 
+    {
+        font-size: 8px;
+        padding: 0 2px;
+    }
+    .urban-button button 
+    {
+        padding: 6px 25px;
+        margin-top: 5px;
+    }
+    .after::after 
+    {
+        width: 520px;
+    }
+    .col-12 
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .showcase-header h2 
+    {
+        font-size: 25px;
+    }
+    .showcase-header p 
+    {
+        font-size: 12px;
+        padding: 0 75px;
+    }
+    .show-txt h2 
+    {
+        font-size: 18px;
+    }
+    .show-txt p 
+    {
+        font-size: 12px;
+        padding: 0 79px;
+    }
+    .showcase-button button 
+    {
+        font-size: 15px;
+        padding: 12px 15px;
+    }
+    .showcase-button::after 
+    {
+        width: 520px;
+    }
+    .show-button button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+
+    .reference-txt h2 
+    {
+        font-size: 25px;
+    }
+    .reference-txt p 
+    {
+        font-size: 12px;
+        padding: 0 100px;
+    }
+    .image 
+    {
+        width: 350px;
+        height: 250px;
+        left: 18%;
+    }
+    .reference-img img 
+    {
+        width: 45%;
+    }
+    .r-button button 
+    {
+        padding: 5px 16px;
+        font-size: 15px;
+    }
+    /* .active 
+    {
+        margin-left: 25%;
+    } */
+    .reference-button button 
+    {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .reference-button::after 
+    {
+        width: 520px;
+    }
+
+
+    .game-header h2 
+    {
+        font-size: 25px;
+    }
+    .game-header p 
+    {
+        font-size: 12px;
+        padding: 0 100px;
+    }
+
+    .game-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .game-btn::after 
+    {
+        width: 520px;
+    }
+
+
+
+    .about-header h2 
+    {
+        font-size: 25px;
+    }
+    .about-header p 
+    {
+        font-size: 12px;
+        padding: 0 50px;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .about-img-btn button 
+    {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .about-img-btn::after 
+    {
+        width: 520px;
+    }
+
+
+
+    .partner-txt h2 
+    {
+        font-size: 30px;
+    }
+    .partner-txt p 
+    {
+        font-size: 12px;
+    }
+    .p-image 
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 16px;
+        left: 18%;
+    }
+    .p-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .partner-button button 
+    {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+
+    .social-icon 
+    {
+        width: 55px;
+        height: 55px;
+    }
+    .social-txt h2 
+    {
+        font-size: 30px;
+    }
+
+
+
+    .footer-txt 
+    {
+        padding-left: 50px;
+    }
+    .footer-txt h4 
+    {
+        font-size: 14px;
+    }
+    .footer-txt p 
+    {
+        font-size: 12px;
+    }
+    .footer-txt ul li a 
+    {
+        font-size: 12px;
+    }
+
+
+
+    
+ }
